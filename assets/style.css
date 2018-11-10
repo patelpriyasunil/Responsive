@@ -1,0 +1,368 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:lightcyan;
+}
+
+.container {
+    width: 960px;
+    margin:  auto; 
+    
+}
+
+.header {
+    padding:0px;
+    margin:0;
+    background-color:#ffffff;
+    width: 100%;
+    height:80px;
+    top:0;
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+    border-bottom-color: #cccccc;
+    overflow: hidden;
+   
+
+}
+.logo {
+    display:block;
+    float:left;
+    padding-top:0px;
+    margin-top:0px;
+    position:relative;
+    bottom:20px;
+
+}
+a {
+    text-decoration: none;
+    color:#777777;
+}
+
+li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    display: block;
+
+}
+ .nav {
+        float: right;
+
+    }
+h1 {
+    padding:25px;
+    font-size: 30px;
+    height: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #eee;
+  text-align: center;
+  background:#4aaaa5;
+  /* padding-top: 10px; */
+  }
+  section{
+      display:block;
+      float:left;
+      
+  }
+ .box{
+     
+    width: 960px;
+    margin:auto;
+     background:#ffffff;
+     position:relative;
+ padding:0;
+margin: 50px 480px 50px 480px;
+display:block;
+border: 2px solid #cccccc;
+text-align: left;
+
+
+ }
+ h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color:#4aaaa5;
+     font-size: 30px;
+     text-align: left;
+     padding-left:20px;
+     padding-right: 20px;
+
+ }
+ hr{
+   
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;;
+    border: solid #dddddd;
+    border-width: 2.5px;
+    padding-right: 20px;
+
+ }
+h3{
+    display:inline-block;
+    
+    
+    
+    
+}  
+ img{
+     height:200px;
+     width: 150px;
+     padding:15px;
+     float:left;
+
+ }
+ p{
+     padding: 20px;
+     text-align: left;
+     color: #777777;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 30px;
+     font-weight: initial;
+
+
+     }
+     form{
+         color:#666666;
+         padding-left:20;
+         margin:10px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight:initial;
+        
+     }
+     label{
+         padding:10px;
+     }
+     input[type=text], select {
+         width: 880px;
+         padding: 10px 20px;
+         margin: 10px;
+         margin:10px;
+         
+     }
+     input[type=submit] {
+        width:100px;
+        Height:50px;
+        background-color:#4aaaa5;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size:20px;
+        color:#ffffff;
+    
+     }
+     
+    
+     #Message{
+        Height: 225px;
+        
+        
+     }
+     
+
+     #Physics{
+         padding: 5px 20px;
+         height:150px;
+         width: 200px;
+        
+     }
+
+     #Gadgets{
+        padding: 5px 20px;
+        height:150px;
+        width: 200px;
+
+     }
+#Hangman{
+    padding: 5px 20px;
+    height:150px;
+    width: 200px;
+}
+#RPG{
+    padding: 5px 20px;
+    height:150px;
+    width: 200px;
+}
+
+#Trivia{
+    padding: 5px 20px;
+    height:150px;
+    width: 200px;
+}
+    
+footer {
+    margin:0;
+    background-color:#666666;
+    position: fixed;
+    width:100%;
+    height:80px;
+    padding: 0px;
+    text-align: center;
+    color:#dddddd;
+    bottom:0;
+    border-top: 8px solid;
+    border-top-color:#4aaaa5;
+    text-align: center;
+    
+}
+@media only screen and (max-width: 980px) {
+.logo {
+    display:block;
+    float:left;
+    padding-top:0px;
+    margin-top:0px;
+    position:relative;
+    bottom:20px;
+    padding-left: 40px;
+}   
+li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    display: block;
+    padding-right: 35px;
+
+}
+
+.box{
+    
+   width: 800px;
+   margin:auto;
+    background:#ffffff;
+    position:relative;
+padding-right:50px;
+margin: 50px 480px 50px 40px;
+display:block;
+border: 2px solid #cccccc;
+text-align: left;
+
+
+}
+#Message{
+    Height: 225px;
+    width: 700px;
+    display:block;
+    
+    
+ }
+ #Email{
+     width:700px;
+     display:block;
+ }
+ #Name{
+     width:700px;
+     display:block;
+ 
+ }
+    
+}      
+@media only screen and (max-width: 768px) {
+    .logo {
+        display:block;
+        float:left;
+        padding-top:0px;
+        margin-top:0px;
+        position:relative;
+        bottom:20px;
+        padding-left: 40px;
+    }   
+    li {
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding-top: 10px;
+        font-size: 20px;
+        padding-right: 0px;
+        padding-left:0px;
+    
+     
+    
+    }
+    
+    .box{
+        
+       width: 500px;
+       margin:auto;
+        background:#ffffff;
+        position:relative;
+    padding-right:50px;
+    margin: 50px 480px 50px 40px;
+    display:block;
+    border: 2px solid #cccccc;
+    text-align: left;
+    
+}
+.header {
+    padding:0px;
+    margin:0;
+    background-color:#ffffff;
+    width: 100%;
+    height:80px;
+    top:0;
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+    border-bottom-color: #cccccc;
+    overflow: hidden;
+}
+
+
+a {
+    text-decoration: none;
+    color:#777777;
+    padding-right:55px;
+    margin:-5px;
+
+}
+
+.nav {
+       float: right;
+       
+}
+
+    
+#Message{
+   Height: 225px;
+   width: 450px;
+   display:block;
+   
+   
+}
+#Email{
+    width:450px;
+    display:block;
+}
+#Name{
+    width:450px;
+    display:block;
+
+}
+        
+    }      
+   
+@media only screen and (max-width: 640px) {
+    .logo {
+        display:block;
+        width:100%;
+        padding-top:0px;
+        margin-top:0px;
+        bottom:20px;
+        }
+
+        .nav {
+            float: right;
+            display:block;
+            position:relative;
+    
+        }
+        h1{
+            text-align:center;
+            padding-right:300px;
+        }
+
+    }   
